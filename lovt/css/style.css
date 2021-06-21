@@ -1,0 +1,382 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ropa Sans", sans-serif;
+}
+body {
+  max-width: 697px;
+  margin: 0 auto;
+}
+header {
+  height: 49px;
+  -webkit-box-shadow: 0px 2px 10px 0px rgba(46, 74, 117, 0.25);
+  -moz-box-shadow: 0px 2px 10px 0px rgba(46, 74, 117, 0.25);
+  box-shadow: 0px 2px 10px 0px rgba(46, 74, 117, 0.25);
+}
+header div.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 100%;
+}
+.logo {
+  margin-top: 8px;
+  margin-left: 44px;
+  width: 63px;
+  height: 25px;
+  font-size: 30px;
+  color: #777;
+  font-weight: 400;
+  line-height: 32.16px;
+}
+span {
+  text-transform: uppercase;
+}
+header div.container p {
+  margin-top: 13px;
+  color: #aaa;
+  font-size: 10px;
+  line-height: 11px;
+  font-weight: 400;
+  flex-grow: 1;
+}
+header div.container i {
+  width: 18px;
+  height: 12px;
+  color: #aaa;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-right: 31px;
+}
+main {
+  padding: 0 45px;
+}
+section.carroussel {
+ margin-bottom: 40px;
+}
+div.exposicao{
+margin-top: 20px;
+width: 100%;
+background-image: url(../img/Rectangle\ 3.svg);
+background-size: cover;
+height: 252px;
+display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  align-items: center;
+}
+.esquerda, .direita{
+  font-size: 18px;
+  height: 40px;
+  width: 40px;
+  border-radius:  50%;
+  color: rgb(255, 255, 255);
+  background-color: #8d8d8d5d;
+  text-align: center;
+  cursor: pointer;
+
+}
+.esquerda i, .direita i{
+  position: relative;
+  top:10px;
+  flex: 2;
+}
+
+section.cards {
+  display: flex;
+  max-width: 697px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card1 {
+ 
+  background-color: #eee;
+  width: 256px;
+  height: 250px;
+}
+.card1 h2 {
+  font-family: Ropa Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 27px;
+  padding: 10px;
+  color: #888888;
+  flex-grow: 1;
+}
+.card1 p {
+  font-family: Ropa Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 11px;
+  text-align: justify;
+  padding: 10px;
+}
+input[type="button"] {
+  margin-top: 10px;
+  margin-right: 10px;
+  width: 56px;
+  height: 21px;
+  text-decoration: none;
+  color: white;
+  background: #51d275;
+  border-radius: 10.5px;
+  font-size: 20px;
+  text-align: center;
+  border: none;
+  font-style: normal;
+  font-weight: normal;
+  cursor: pointer;
+}
+.card2 {
+  width: 256px;
+  height: 250px;
+  background-color: #eee;
+}
+.card2 h2 {
+  font-family: Ropa Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 27px;
+  padding: 10px;
+  color: #888888;
+  flex-grow: 1;
+}
+.card2 p {
+  font-family: Ropa Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 11px;
+  text-align: justify;
+  padding: 10px;
+}
+input.card2[type="button"] {
+  margin-top: 10px;
+  margin-right: 10px;
+  width: 56px;
+  height: 21px;
+  text-decoration: none;
+  color: white;
+  background: #dc9730;
+  border-radius: 10.5px;
+  font-size: 20px;
+
+  text-align: center;
+  border: none;
+  font-style: normal;
+  font-weight: normal;
+  cursor: pointer;
+}
+div.card2 img {
+  width: 256px;
+  height: 144px;
+}
+.flex {
+  display: flex;
+  justify-content: flex-start;
+}
+
+section.styles > div.container {
+  max-width: 697px;
+  text-align: center;
+  margin-top: 45px;
+}
+.wrap-your {
+  color: #888;
+  font-size: 25px;
+  text-decoration: none;
+  font-weight: normal;
+}
+.wrap-industrial {
+  margin-top: 13px;
+  max-width: 697px;
+  width: 100%;
+  opacity: 0.5;
+  height: 80px;
+  color: white;
+  background-image: url(../img/Rectangle\ 11.svg);
+  background-size: cover;
+  background-position: center;
+}
+.wrap-industrial h2 {
+  position: relative;
+  top: 25px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+  font-size: 25px;
+}
+.wrap-modern {
+  margin-top: 13px;
+  max-width: 697px;
+  width: 100%;
+  opacity: 0.5;
+  height: 80px;
+  color: white;
+  background-image: url(../img/Rectangle\ 12.svg);
+  background-size: cover;
+  background-position: center;
+}
+.wrap-modern h2 {
+  position: relative;
+  top: 25px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+  font-size: 25px;
+}
+.wrap-classic {
+  max-width: 697px;
+  margin-top: 13px;
+  margin-bottom: 60px;
+  width: 100%;
+  opacity: 0.5;
+  height: 80px;
+  color: white;
+  background-image: url(../img/Rectangle\ 13.svg);
+  background-size: cover;
+  background-position: center;
+}
+.wrap-classic h2 {
+  position: relative;
+  top: 25px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+  font-size: 25px;
+}
+footer {
+  background-color: #333;
+  max-width: 697px;
+}
+.wrapper {
+  display: flex;
+}
+footer .mapa {
+  background-image: url(../img/image\ 1.svg);
+  width: 252px;
+  height: 163px;
+  background-size: cover;
+  margin: 40px 48px;
+  border-radius: 20px;
+}
+.flex-item {
+  align-self: center;
+  margin: auto;
+}
+footer p {
+  font-size: 12px;
+  color: white;
+  line-height: 20px;
+}
+footer ul li {
+  list-style: none;
+  display: inline-block;
+}
+footer i {
+  color: white;
+  margin: auto;
+  width: 30px;
+  height: 30px;
+}
+a {
+  font-size: 30px;
+}
+/*Tratamento Responsivo*/
+
+@media (max-width: 670px) {
+  header div.container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .logo {
+    margin-left: 10px;
+  }
+
+  .card1 {
+
+    height: 300px;
+    background-color: #eee;
+  }
+
+  div.card1 img {
+    width: 100%;
+    height: 144px;
+  }
+  .card2 {
+
+    height: 300px;
+    background-color: #eee;
+  }
+
+  div.card2 img {
+    width: 100%;
+    height: 144px;
+  }
+  .flex {
+    display: flex;
+    justify-content: flex-start;
+  }
+}
+@media (max-width: 620px) {
+main{
+  padding: 0;
+}
+  section.cards {
+    display: block;
+    margin: auto;
+  }
+  .card1 {
+    
+    height: 300px;
+    background-color: #eee;
+    margin: auto;
+  }
+  div.card1 img {
+    width: 100%;
+    height: 144px;
+  }
+  .card2 {
+    height: 300px;
+    background-color: #eee;
+    margin:10px auto;
+  }
+  div.card2 img {
+    width: 100%;
+    height: 144px;
+  }
+  .wrapper {
+    display: block;
+    padding: 10px;
+  }
+  footer .mapa {
+    margin: auto;
+    width: 75%;
+    height: 30vh;
+  }
+  ul {
+    text-align: center;
+  }
+  footer p {
+    font-size: 12px;
+    color: white;
+    line-height: 20px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+  }
+  footer ul li {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+  }
+  footer i {
+    color: white;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+  }
+  a {
+    font-size: 30px;
+    text-align: center;
+  }
+}
